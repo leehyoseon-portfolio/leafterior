@@ -1,0 +1,98 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+body{
+    font-family: 'Pretendard';
+    color: #434444;
+    line-height: 24px;
+    min-width: 1320px;
+}
+/*헤더*/
+#header{
+    width: 100%; 
+    background-color: #f1e3c4;
+}
+#headerinner{
+    width: 1300px;
+    padding: 5px 0;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+#headerinner .menu{
+    float: left;
+    padding-top: 22px;
+}
+#headerinner .logo{
+    margin-left: 100px;
+}
+.menu a img{
+    padding-bottom: 27px;
+}
+.right1{
+    float: right;
+    padding-top: 22px;
+}
+.right1 ul{
+    float: left;
+}
+.right1 li{
+    float: left;
+    padding-right: 15px;
+}
+.right1 li img{
+    opacity: 50%;
+}
+.right1 li img:hover{
+    opacity: 100%;
+}
+/*서브메뉴 꾸미기*/
+.sub{
+    background: url(../img/mainbanner/allmenu.png) no-repeat 100%;
+    top: 99px;
+    position: absolute;
+    width: 623px;
+    height: 355px;
+    display: none;
+    z-index: 99;
+}
+#headerinner .menu:hover .sub{
+    display: block;
+}
+.sub div{
+    width: 623px;
+    margin: auto;
+}
+.sub div ul{
+    width: 20%;
+    float: left;
+}
+.sub div a{
+    color: white;
+    line-height: 55px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.sub div li .bold{
+    font-weight: 400;
+}
+.sub div p a{
+    position: absolute;
+    right: 15px;
+    bottom: -3px;
+    font-weight: 400;
+}
+.sub li a:hover{
+    font-size: 21px;
+    font-weight: bold;
+}
+.sub div p a span{
+    color: #f1e3c4;
+}    
+#banner img{
+    width: 100%;
+    display: block;
+}
+.topbanner{
+    width: 100%;
+}
